@@ -1,0 +1,33 @@
+{
+  "name": "@ghasemkiani/chainlink-eth",
+  "version": "1.0.0",
+  "description": "Chainlink oracle price feeds on Ethereum",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/ghasemkiani/chainlink-eth.git"
+  },
+  "keywords": [
+    "blockchain",
+    "cryptocurrency",
+    "oracle",
+    "price",
+    "feed",
+    "ethereum"
+  ],
+  "author": "Ghasem Kiani",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://gitlab.com/ghasemkiani/chainlink-eth/issues"
+  },
+  "homepage": "https://gitlab.com/ghasemkiani/chainlink-eth#readme",
+  "dependencies": {
+    "@ghasemkiani/base": "github:ghasemkiani/base",
+    "@ghasemkiani/ethereum": "github:ghasemkiani/ethereum",
+    "bignumber.js": "^9.0.1"
+  }
+}
